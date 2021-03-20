@@ -5,19 +5,15 @@
 
 function menu (){
     echo "-------\n";
-    echo " 1- para atacar";
+    echo " 1- para atacar\n";
     echo " 2- para defender";
-    echo " 3- para curar";
 
 }
-
-
-$opcion=trim(fgets(STDIN));
-switch($opcion){
-case 1 : 
-        echo "juega P1";
-        $player1=trim(fgets(STDIN));
-case 2 :
-        echo "juega P2";    
-        $player2=trim(fgets(STDIN));
+$player1=[];
+$player1=["vida"=>10,"ataque"=>0<5];
+$player2=[];
+$player2=["vida"=>10,"ataque"=>0<5];
+$menu= menu();
+while($player1 "vida" != 0 && $player2 "vida" != 0){
+        
 }
